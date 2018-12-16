@@ -18,17 +18,17 @@ public class MyServlet extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        resp.setContentType("text/html");
-
-        String varTextA = "Hello world";
-        req.setAttribute("textA", varTextA);
-
-        String varTextB = "It JSP";
-        req.setAttribute("textB", varTextB);
-
-        RequestDispatcher dispatcher = req.getRequestDispatcher("/index.jsp");
-        dispatcher.forward(req, resp);
-
+//        resp.setContentType("text/html");
+//
+//        String varTextA = "Hello world";
+//        req.setAttribute("textA", varTextA);
+//
+//        String varTextB = "It JSP";
+//        req.setAttribute("textB", varTextB);
+//
+//        RequestDispatcher dispatcher = req.getRequestDispatcher("/index.jsp");
+//        dispatcher.forward(req, resp);
+//
 
     }
 }
